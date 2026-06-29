@@ -1,0 +1,466 @@
+{
+  "total_complaints": 196835,
+  "amex_complaints": 13665,
+  "amex_share_pct": 6.942362892778216,
+  "amex_rank": 7,
+  "num_companies": 9,
+  "date_min": "2025-01-01",
+  "date_max": "2026-03-31",
+  "company_volume": {
+    "Capital One": 42365,
+    "JPMorgan Chase": 31567,
+    "Citibank": 25896,
+    "Wells Fargo": 25828,
+    "Bank of America": 25539,
+    "Synchrony Financial": 18294,
+    "American Express": 13665,
+    "U.S. Bank": 7384,
+    "Barclays": 6297
+  },
+  "amex_products": {
+    "Credit card": 6166,
+    "Credit reporting or other personal consumer reports": 3648,
+    "Debt collection": 1759,
+    "Prepaid card": 1471,
+    "Checking or savings account": 500,
+    "Money transfer, virtual currency, or money service": 64,
+    "Payday loan, title loan, personal loan, or advance loan": 37,
+    "Debt or credit management": 16,
+    "Mortgage": 3,
+    "Vehicle loan or lease": 1
+  },
+  "amex_issues": {
+    "Incorrect information on your report": 2248,
+    "Problem with a purchase shown on your statement": 1784,
+    "Trouble using the card": 1219,
+    "Other features, terms, or problems": 991,
+    "Improper use of your report": 988,
+    "Took or threatened to take negative or legal action": 797,
+    "Problem with a company's investigation into an existing problem": 771,
+    "Fees or interest": 633,
+    "Advertising and marketing, including promotional offers": 574,
+    "Attempts to collect debt not owed": 557
+  },
+  "pareto_top5_pct": 52.908891328210764,
+  "prepaid_outlier_pct": 78.04097311139564,
+  "prepaid_outlier_amex": 1219,
+  "prepaid_outlier_total": 1562,
+  "q1_2025": 2657,
+  "q1_2026": 3094,
+  "yoy_pct": 16.447120812946935,
+  "aug_2025": 815,
+  "mar_2026": 1061,
+  "monthly_trend_pct": 30.184049079754597,
+  "qoq_q4_to_q1_pct": 9.911190053285967,
+  "amex_timely_pct": 98.9901207464325,
+  "peer_timely_pct": 99.73804439991439,
+  "amex_timely_rank": 8,
+  "resolution_explanation_pct": 73.04061470911087,
+  "resolution_monetary_pct": 12.206366630076838,
+  "resolution_nonmonetary_pct": 14.753018660812295,
+  "peer_monetary_relief_pct": 10.322651089152153,
+  "top_states": {
+    "CA": 2028,
+    "FL": 1565,
+    "NY": 1364,
+    "TX": 1230,
+    "GA": 914
+  },
+  "issue_yoy_changes": {
+    "Incorrect information on your report": {
+      "q1_2025": 378,
+      "q1_2026": 480,
+      "yoy_pct": 27.0
+    },
+    "Problem with a purchase shown on your statement": {
+      "q1_2025": 256,
+      "q1_2026": 514,
+      "yoy_pct": 100.8
+    },
+    "Trouble using the card": {
+      "q1_2025": 431,
+      "q1_2026": 123,
+      "yoy_pct": -71.5
+    },
+    "Other features, terms, or problems": {
+      "q1_2025": 175,
+      "q1_2026": 271,
+      "yoy_pct": 54.9
+    },
+    "Improper use of your report": {
+      "q1_2025": 297,
+      "q1_2026": 176,
+      "yoy_pct": -40.7
+    },
+    "Took or threatened to take negative or legal action": {
+      "q1_2025": 34,
+      "q1_2026": 329,
+      "yoy_pct": 867.6
+    },
+    "Problem with a company's investigation into an existing problem": {
+      "q1_2025": 178,
+      "q1_2026": 147,
+      "yoy_pct": -17.4
+    },
+    "Fees or interest": {
+      "q1_2025": 135,
+      "q1_2026": 129,
+      "yoy_pct": -4.4
+    }
+  },
+  "fastest_growing_issues": [
+    {
+      "issue": "Took or threatened to take negative or legal action",
+      "q1_2025": 34,
+      "q1_2026": 329,
+      "yoy_pct": 867.6
+    },
+    {
+      "issue": "Problem with a purchase shown on your statement",
+      "q1_2025": 256,
+      "q1_2026": 514,
+      "yoy_pct": 100.8
+    },
+    {
+      "issue": "Other features, terms, or problems",
+      "q1_2025": 175,
+      "q1_2026": 271,
+      "yoy_pct": 54.9
+    }
+  ],
+  "declining_issues": [
+    {
+      "issue": "Fees or interest",
+      "q1_2025": 135,
+      "q1_2026": 129,
+      "yoy_pct": -4.4
+    },
+    {
+      "issue": "Problem with a company's investigation into an existing problem",
+      "q1_2025": 178,
+      "q1_2026": 147,
+      "yoy_pct": -17.4
+    },
+    {
+      "issue": "Improper use of your report",
+      "q1_2025": 297,
+      "q1_2026": 176,
+      "yoy_pct": -40.7
+    },
+    {
+      "issue": "Trouble using the card",
+      "q1_2025": 431,
+      "q1_2026": 123,
+      "yoy_pct": -71.5
+    }
+  ],
+  "amex_strengths": [],
+  "amex_weaknesses": [
+    {
+      "issue": "Trouble using the card",
+      "amex_count": 1219,
+      "industry_count": 1562,
+      "amex_industry_share_pct": 78.0,
+      "index_vs_expected": 11.24
+    },
+    {
+      "issue": "Advertising and marketing, including promotional offers",
+      "amex_count": 574,
+      "industry_count": 3270,
+      "amex_industry_share_pct": 17.6,
+      "index_vs_expected": 2.53
+    },
+    {
+      "issue": "Other features, terms, or problems",
+      "amex_count": 991,
+      "industry_count": 8159,
+      "amex_industry_share_pct": 12.1,
+      "index_vs_expected": 1.75
+    }
+  ],
+  "monetary_relief_by_issue": {
+    "Incorrect information on your report": 0.5,
+    "Problem with a purchase shown on your statement": 26.2,
+    "Trouble using the card": 44.1,
+    "Other features, terms, or problems": 13.4,
+    "Improper use of your report": 0.1,
+    "Took or threatened to take negative or legal action": 0.0,
+    "Problem with a company's investigation into an existing problem": 1.3,
+    "Fees or interest": 26.1
+  },
+  "regulatory_exposure": {
+    "FCRA": 4007,
+    "Reg Z / FCBA": 1784,
+    "FDCPA/UDAAP": 797,
+    "UDAAP": 633
+  },
+  "product_drivers": {
+    "Credit card": {
+      "count": 6166,
+      "top_issue": "Problem with a purchase shown on your statement",
+      "top_issue_count": 1784
+    },
+    "Credit reporting or other personal consumer reports": {
+      "count": 3648,
+      "top_issue": "Incorrect information on your report",
+      "top_issue_count": 1982
+    },
+    "Debt collection": {
+      "count": 1759,
+      "top_issue": "Took or threatened to take negative or legal action",
+      "top_issue_count": 797
+    },
+    "Prepaid card": {
+      "count": 1471,
+      "top_issue": "Trouble using the card",
+      "top_issue_count": 1219
+    },
+    "Checking or savings account": {
+      "count": 500,
+      "top_issue": "Managing an account",
+      "top_issue_count": 274
+    }
+  },
+  "peer_benchmark_kpis": {
+    "timely": {
+      "American Express": 98.99,
+      "Bank of America": 99.52,
+      "Barclays": 100.0,
+      "Capital One": 100.0,
+      "Citibank": 100.0,
+      "JPMorgan Chase": 100.0,
+      "Synchrony Financial": 98.4,
+      "U.S. Bank": 100.0,
+      "Wells Fargo": 99.99
+    },
+    "monetary_relief": {
+      "American Express": 12.21,
+      "Bank of America": 23.45,
+      "Barclays": 3.54,
+      "Capital One": 3.86,
+      "Citibank": 18.27,
+      "JPMorgan Chase": 6.16,
+      "Synchrony Financial": 9.35,
+      "U.S. Bank": 6.72,
+      "Wells Fargo": 8.44
+    },
+    "volume": {
+      "Capital One": 42365,
+      "JPMorgan Chase": 31567,
+      "Citibank": 25896,
+      "Wells Fargo": 25828,
+      "Bank of America": 25539,
+      "Synchrony Financial": 18294,
+      "American Express": 13665,
+      "U.S. Bank": 7384,
+      "Barclays": 6297
+    }
+  },
+  "recommendations": [
+    {
+      "id": "REC-001",
+      "problem": "Credit reporting data inaccuracies drive #1 complaint category",
+      "root_cause": "Bureau data sync gaps and manual dispute investigation delays",
+      "evidence": "2,248 FCRA-category complaints (16.5%); 771 on inadequate investigation",
+      "action": "Bureau-data reconciliation pipeline; auto-resolve verifiable errors within 48 hours",
+      "benefit": "Reduced regulatory exposure and premium customer trust erosion",
+      "priority": "P1",
+      "effort": "Medium (3\u20136 months)",
+      "kpi_target": "15\u201325% reduction in credit-reporting complaints",
+      "risk": "Incomplete bureau matching may create false positives",
+      "mitigation": "Human review queue for edge cases; phased rollout by error type",
+      "timeline": "Pilot 30 days; full deployment 90 days"
+    },
+    {
+      "id": "REC-002",
+      "problem": "Merchant billing disputes unresolved at scale",
+      "root_cause": "Manual dispute routing; 1,484 sub-issues cite unresolved purchase disputes",
+      "evidence": "1,784 statement disputes (#2 issue); 83% of sub-issues are unresolved disputes",
+      "action": "AI-assisted merchant dispute triage; 48-hr first-response SLA; proactive status updates",
+      "benefit": "Faster resolution, lower re-complaint rate, reduced FCBA exposure",
+      "priority": "P1",
+      "effort": "Medium (2\u20134 months)",
+      "kpi_target": "20% faster resolution; 10% reduction in billing dispute volume",
+      "risk": "Automation may misclassify complex fraud cases",
+      "mitigation": "Escalation rules for high-value and fraud-flagged disputes",
+      "timeline": "Pilot on top 500 merchant categories in 60 days"
+    },
+    {
+      "id": "REC-003",
+      "problem": "Prepaid card activation/acceptance failures",
+      "root_cause": "Product-specific merchant network or activation workflow failure",
+      "evidence": "78% industry share on card usage failures; 100% from Prepaid product line",
+      "action": "Root-cause analysis; partner merchant audit; product redesign or sunset decision",
+      "benefit": "Eliminate most disproportionate CFPB visibility; protect brand on card products",
+      "priority": "P1",
+      "effort": "High (requires cross-functional product + tech)",
+      "kpi_target": "Reduce prepaid usage complaints by 50%+ within 6 months",
+      "risk": "Product sunset may affect partner revenue",
+      "mitigation": "Fix-first approach with 90-day remediation window before sunset decision",
+      "timeline": "Task force stand-up within 14 days"
+    },
+    {
+      "id": "REC-004",
+      "problem": "Complaint volume acceleration",
+      "root_cause": "Emerging friction in credit reporting and prepaid products outpacing prevention",
+      "evidence": "+16.4% YoY; monthly volume +30% over 7 months",
+      "action": "Executive CFPB dashboard with monthly review; product-level early warning thresholds",
+      "benefit": "Leadership visibility before trends become systemic",
+      "priority": "P2",
+      "effort": "Low (30 days)",
+      "kpi_target": "Flat or declining YoY growth within 2 quarters",
+      "risk": "Dashboard fatigue without action accountability",
+      "mitigation": "Assign executive owner per product cluster with monthly KPI targets",
+      "timeline": "Dashboard live in 30 days"
+    }
+  ],
+  "insights": [
+    {
+      "id": "INS-001",
+      "observation": "Amex complaint volume is below mega-bank peers",
+      "evidence": "13,665 complaints (6.9% share), rank 7/9",
+      "impact": "Lower relative CFPB visibility vs Capital One (21.5%) and Chase (16.0%)",
+      "recommendation": "Protect volume advantage; shift investment from volume management to root-cause reduction",
+      "outcome": "Sustain top-quartile competitive position on complaint volume",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "INS-002",
+      "observation": "Credit reporting accuracy is the #1 Amex complaint driver",
+      "evidence": "2,248 complaints (16.5%) on incorrect report information; FCRA regulatory category",
+      "impact": "Reputational risk with credit-conscious premium cardmembers; bureau dispute escalation",
+      "recommendation": "Launch bureau-data reconciliation sprint with automated verifiable-error resolution",
+      "outcome": "15\u201325% reduction in credit-reporting complaints within 6 months",
+      "priority": "CRITICAL"
+    },
+    {
+      "id": "INS-003",
+      "observation": "Prepaid card usability is a unique industry outlier",
+      "evidence": "Amex = 78% of all 'Trouble using card' complaints (1,219/1,562)",
+      "impact": "Disproportionate CFPB visibility on a fixable product failure; no peer exhibits this concentration",
+      "recommendation": "Emergency root-cause on activation/merchant acceptance; partner merchant audit",
+      "outcome": "Eliminate category outlier status; address 1,219 complaints",
+      "priority": "CRITICAL"
+    },
+    {
+      "id": "INS-004",
+      "observation": "Complaint volume is accelerating despite favorable rank",
+      "evidence": "+16.4% YoY Q1 (2,657 \u2192 3,094); +30% Aug 2025\u2013Mar 2026",
+      "impact": "Early warning of systemic deterioration if unchecked; rank masks trajectory",
+      "recommendation": "Establish executive monthly CFPB review with product-level root-cause tracking",
+      "outcome": "Detect and reverse trend before reaching peer-average growth rates",
+      "priority": "HIGH"
+    },
+    {
+      "id": "INS-005",
+      "observation": "Issue concentration enables surgical intervention",
+      "evidence": "Top 5 issues = 53% of all Amex complaints (Pareto principle)",
+      "impact": "Focused investment on 3 product clusters yields disproportionate complaint reduction",
+      "recommendation": "Stand up cross-functional task force on Credit Reporting, Billing Disputes, Prepaid Card",
+      "outcome": "Target 20%+ reduction in top-5 issue volume within 12 months",
+      "priority": "HIGH"
+    },
+    {
+      "id": "INS-006",
+      "observation": "Resolution quality is a competitive strength to leverage",
+      "evidence": "73% closed with explanation vs 99.0% timely (rank 8/9)",
+      "impact": "Strong post-complaint resolution; opportunity to shift capacity upstream to prevention",
+      "recommendation": "Reinvest operational capacity from timeliness optimization into proactive outreach",
+      "outcome": "Reduce CFPB filings before escalation; improve NPS on dispute-prone journeys",
+      "priority": "MEDIUM"
+    }
+  ],
+  "risks": [
+    {
+      "id": "RISK-001",
+      "name": "Credit Reporting Data Accuracy",
+      "likelihood": "High",
+      "impact": "High",
+      "severity": "Critical",
+      "business_area": "Compliance / Credit Reporting",
+      "affected_customers": "Premium cardmembers with bureau disputes",
+      "financial_risk": "Medium \u2014 dispute processing cost + potential regulatory action",
+      "operational_risk": "High \u2014 manual investigation backlog (771 inadequate investigation complaints)",
+      "regulatory_risk": "High \u2014 FCRA exposure at 3,236 combined FCRA-category complaints",
+      "reputational_risk": "High \u2014 credit accuracy is core to premium brand promise",
+      "evidence": "2,248 incorrect report info + 988 improper report use + 771 investigation failures",
+      "mitigation": "Bureau reconciliation sprint; automated verifiable-error resolution",
+      "owner": "Chief Compliance Officer + Credit Reporting Ops",
+      "priority": "P1",
+      "expected_impact": "15\u201325% reduction in FCRA-category complaints"
+    },
+    {
+      "id": "RISK-002",
+      "name": "Billing & Merchant Dispute Friction",
+      "likelihood": "High",
+      "impact": "High",
+      "severity": "Critical",
+      "business_area": "Customer Experience / Credit Card",
+      "affected_customers": "Core credit card cardmembers",
+      "financial_risk": "Medium \u2014 chargeback costs and potential monetary relief (12.2% rate)",
+      "operational_risk": "High \u2014 1,484 unresolved dispute sub-issues",
+      "regulatory_risk": "Medium \u2014 Reg Z / FCBA billing dispute requirements",
+      "reputational_risk": "High \u2014 billing disputes directly affect card usage and retention",
+      "evidence": "1,784 statement disputes; 83% of sub-issues cite unresolved disputes",
+      "mitigation": "AI dispute triage; 48-hr SLA; proactive status notifications",
+      "owner": "Head of Customer Care + Disputes Operations",
+      "priority": "P1",
+      "expected_impact": "20% faster resolution; 10% volume reduction"
+    },
+    {
+      "id": "RISK-003",
+      "name": "Prepaid Card Systemic Failure",
+      "likelihood": "Medium",
+      "impact": "High",
+      "severity": "Critical",
+      "business_area": "Product / Prepaid Card",
+      "affected_customers": "Prepaid card users (1,471 product complaints)",
+      "financial_risk": "Low\u2013Medium \u2014 product line revenue at risk if sunset",
+      "operational_risk": "Critical \u2014 78% industry share on single issue type",
+      "regulatory_risk": "Medium \u2014 concentrated CFPB visibility",
+      "reputational_risk": "Medium \u2014 isolated to prepaid segment, not core premium brand",
+      "evidence": "1,219 of 1,562 industry 'Trouble using card' complaints are Amex prepaid",
+      "mitigation": "Root-cause analysis; merchant audit; redesign or sunset decision",
+      "owner": "Prepaid Product GM + Merchant Partnerships",
+      "priority": "P1",
+      "expected_impact": "Eliminate category outlier status"
+    },
+    {
+      "id": "RISK-004",
+      "name": "Complaint Volume Acceleration",
+      "likelihood": "High",
+      "impact": "Medium",
+      "severity": "High",
+      "business_area": "Strategy / Executive",
+      "affected_customers": "All product lines",
+      "financial_risk": "Low \u2014 indirect via retention and regulatory cost",
+      "operational_risk": "Medium \u2014 rising case load if trend continues",
+      "regulatory_risk": "Medium \u2014 increasing CFPB scrutiny as volume grows",
+      "reputational_risk": "Medium \u2014 trend reversal would erode volume advantage",
+      "evidence": "+16.4% YoY Q1; +30% monthly trend",
+      "mitigation": "Executive monthly review; product-level early warning dashboard",
+      "owner": "Chief Customer Officer",
+      "priority": "P2",
+      "expected_impact": "Stabilize YoY growth within 2 quarters"
+    },
+    {
+      "id": "RISK-005",
+      "name": "Debt Collection Practice Exposure",
+      "likelihood": "Medium",
+      "impact": "High",
+      "severity": "High",
+      "business_area": "Collections / Legal",
+      "affected_customers": "Delinquent account holders",
+      "financial_risk": "Medium \u2014 collection recovery impact if practices restricted",
+      "operational_risk": "Medium \u2014 797 threatened legal action complaints",
+      "regulatory_risk": "High \u2014 FDCPA/UDAAP on collection practices",
+      "reputational_risk": "Medium \u2014 affects subset of customer base",
+      "evidence": "797 complaints on threatened negative/legal action (100% debt collection product)",
+      "mitigation": "Third-party agency script review; escalation threshold update",
+      "owner": "Head of Collections + Legal Compliance",
+      "priority": "P2",
+      "expected_impact": "Reduce collection-related complaints by 15%"
+    }
+  ],
+  "generated_at": "2026-06-27T21:43:54.606278"
+}

@@ -1,0 +1,12 @@
+# Insights Register
+
+> Computed on 2026-06-27
+
+| ID | Observation | Evidence | Business Impact | Recommendation | Expected Outcome | Priority |
+|----|-------------|----------|-----------------|----------------|------------------|----------|
+| INS-001 | Amex complaint volume is below mega-bank peers | 13,665 complaints (6.9% share), rank 7/9 | Lower relative CFPB visibility vs Capital One (21.5%) and Chase (16.0%) | Protect volume advantage; shift investment from volume management to root-cause reduction | Sustain top-quartile competitive position on complaint volume | MEDIUM |
+| INS-002 | Credit reporting accuracy is the #1 Amex complaint driver | 2,248 complaints (16.5%) on incorrect report information; FCRA regulatory category | Reputational risk with credit-conscious premium cardmembers; bureau dispute escalation | Launch bureau-data reconciliation sprint with automated verifiable-error resolution | 15–25% reduction in credit-reporting complaints within 6 months | CRITICAL |
+| INS-003 | Prepaid card usability is a unique industry outlier | Amex = 78% of all 'Trouble using card' complaints (1,219/1,562) | Disproportionate CFPB visibility on a fixable product failure; no peer exhibits this concentration | Emergency root-cause on activation/merchant acceptance; partner merchant audit | Eliminate category outlier status; address 1,219 complaints | CRITICAL |
+| INS-004 | Complaint volume is accelerating despite favorable rank | +16.4% YoY Q1 (2,657 → 3,094); +30% Aug 2025–Mar 2026 | Early warning of systemic deterioration if unchecked; rank masks trajectory | Establish executive monthly CFPB review with product-level root-cause tracking | Detect and reverse trend before reaching peer-average growth rates | HIGH |
+| INS-005 | Issue concentration enables surgical intervention | Top 5 issues = 53% of all Amex complaints (Pareto principle) | Focused investment on 3 product clusters yields disproportionate complaint reduction | Stand up cross-functional task force on Credit Reporting, Billing Disputes, Prepaid Card | Target 20%+ reduction in top-5 issue volume within 12 months | HIGH |
+| INS-006 | Resolution quality is a competitive strength to leverage | 73% closed with explanation vs 99.0% timely (rank 8/9) | Strong post-complaint resolution; opportunity to shift capacity upstream to prevention | Reinvest operational capacity from timeliness optimization into proactive outreach | Reduce CFPB filings before escalation; improve NPS on dispute-prone journeys | MEDIUM |
