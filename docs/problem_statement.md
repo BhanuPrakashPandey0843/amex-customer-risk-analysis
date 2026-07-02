@@ -1,78 +1,47 @@
-Dear Candidate,
+# Problem Statement
 
- 
+> The original assignment brief deliberately did not provide a predefined problem statement — it asked the analyst to explore the data and form one. This document is that response. The brief itself is preserved separately in [`assignment_brief.md`](assignment_brief.md).
 
-Thank you for your interest in the Apprentice role.
+## Business Context
 
- 
+American Express operates in a U.S. consumer financial services market where complaint volume reported to the Consumer Financial Protection Bureau (CFPB) is public, searchable, and increasingly used as an informal proxy for institutional trustworthiness — by regulators, journalists, and customers comparing card issuers. A complaint filed with the CFPB is not just a service ticket; it is a regulatory exposure event and a public data point simultaneously.
 
-As part of our selection process, we would like you to complete the assignment provided below. This exercise is intended to help us assess your problem-solving approach, technical understanding, and communication skills.
+This creates a dual mandate for any complaints analysis: it has to serve **Customer Experience** (where is friction happening, and why) and **Risk/Compliance** (which complaint patterns carry regulatory weight under frameworks like FCRA, FDCPA, UDAAP, or Reg Z/FCBA) at the same time. A finding that looks minor from a CX lens can be material from a regulatory one, and vice versa.
 
- 
+## The Problem
 
-Assignment:
+Leadership does not currently have a single, evidence-based view that answers three linked questions:
 
-Data Analytics Assessment Challenge
+1. **Where does American Express stand competitively** on CFPB complaint volume against the other 8 major institutions in this dataset (Capital One, JPMorgan Chase, Citibank, Wells Fargo, Bank of America, Synchrony Financial, U.S. Bank, Barclays)?
+2. **Within Amex's own complaint base, which specific issues are concentrated, accelerating, or regulatorily exposed** enough to warrant executive attention — as opposed to the long tail of low-frequency, low-severity complaints that don't merit a leadership-level response?
+3. **What should leadership actually do about it** — with enough specificity (root cause, owner, timeline, KPI target) that the recommendation is actionable rather than directional?
 
- 
+A raw complaint count answers none of these on its own. 196,835 rows of categorical data have to be turned into a small number of decisions.
 
-This challenge is designed to simulate the type of analytical thinking and problem-solving you may encounter in this role.
+## Scope
 
-You will be working with publicly available complaints data from the Consumer Financial Protection Bureau (CFPB), a U.S. financial regulator. The dataset contains consumer complaints submitted about American Express and its top competitors in the U.S. market.
+**In scope:**
+- Jan 2025 – Mar 2026 CFPB complaint records for American Express and 8 named competitors
+- Volume, trend, product, issue, geographic, and resolution-quality analysis
+- Competitive benchmarking on a relative (not per-capita) basis
+- Risk identification with regulatory-framework mapping (FCRA / FDCPA / UDAAP / Reg Z)
+- Prioritized, evidence-backed recommendations with explicit root cause and KPI targets
 
-Rather than providing a predefined problem statement, we encourage you to explore the data, identify meaningful themes, and develop your own analytical narrative.
+**Out of scope** (see `reports/executive_limitations.md` for the full list and reasoning):
+- Predictive modeling — explicitly excluded by the assignment brief, and not supportable by 15 months of categorical data without overfitting risk
+- Per-capita / market-share normalization — the dataset contains no card-base or customer-count data (tracked as a gap in `data/external/README.md`)
+- Root-cause analysis below the complaint-category level — the CFPB dataset has no operational or narrative data to diagnose *why* a process failed internally, only *that* a customer experienced friction
+- Financial impact quantification — no revenue, cost, or customer-lifetime-value data is present
 
- 
+## Why This Framing, Not Another
 
-Your Objective
+The data could have been sliced many ways — by company response type, by state, by month. The framing chosen here (competitive position → issue concentration → regulatory exposure → recommendation) was selected because it mirrors how a Senior Leadership audience actually makes decisions: first establish whether there's a problem at all (competitive context), then localize it (which issues, how concentrated), then weight it (regulatory/reputational stakes), then act (specific, owned, time-bound recommendations). A purely descriptive walk through all 13 raw columns would have produced more charts and fewer decisions — see `reports/executive_kpis.md` for the KPI framework built specifically to support this decision path.
 
- 
+## Success Criteria
 
-Assume your audience is Senior Leadership. Your goal is to identify key risks and opportunities for American Express and provide data-driven recommendations that support business decision-making.
+This analysis is successful if a Chief Risk Officer or Customer Experience executive can read `reports/executive_summary.md` in under two minutes and know:
+1. Whether Amex's complaint position is improving or deteriorating, and how urgently
+2. Which 2–3 issues deserve resourcing this quarter
+3. What specifically to do, who owns it, and how success will be measured
 
- 
-
-Your analysis should include:
-
-Exploratory Data Analysis (EDA)
-Key insights supported by data
-Business recommendations
-Potential risks for American Express and proposed mitigation strategies
- 
-
-Submission Requirements
-
-Please prepare a concise presentation summarizing your findings.
-
-Maximum 2 content slides
-Optional cover page, agenda, and appendix slides are permitted
-Submit in PDF format
-You may use any tools of your choice (Excel, Python, SQL, Tableau, Power BI, etc.)
- 
-
-Important Notes
-
-There is no predefined "correct answer."
-There is no expectation to build predictive models or use advanced statistical techniques.
-We are primarily interested in your analytical thinking, business judgment, and ability to communicate insights effectively.
-The challenge is not about analyzing every aspect of the data. Focus on identifying the most important findings and presenting them clearly.
- 
-
-Evaluation Criteria
-
-We will evaluate submissions based on:
-
-Analytical approach and problem framing
-Quality and relevance of insights
-Business recommendations
-Risk identification and mitigation thinking
-Data storytelling and presentation quality
-Clarity, structure, and conciseness of communication
- 
-
-Dataset Attached - CFPB Complaints Data.xlsx
-
- 
-
- 
-
+Full traceability from this problem statement through to the computed numbers behind each recommendation is documented in `docs/project_dependency_map.md`.
